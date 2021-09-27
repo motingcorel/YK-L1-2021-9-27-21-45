@@ -12,8 +12,6 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-sed -i '$a src-git hwfuture https://github.com/hongweifuture/openwrt-packages' feeds.conf.default
-sed -i '$a src-git pwdep https://github.com/hongweifuture/pwdep.git' feeds.conf.default
 
 # Add a feed source
 echo 'src-git weifuture https://github.com/hongweifuture/openwrt-packages' >>feeds.conf.default
